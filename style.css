@@ -1249,6 +1249,64 @@ p.checkout-coupon input[type="submit"] {
   align-items: center;
 }
 
+/* ------------- */
 
+.pass-content {
+  background-color: rgb(245, 245, 245);
+  height: 400px;
+  width: 50%;
+  border-radius: 15px;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  visibility: hidden;
+  margin-bottom: 15px;
+  padding-bottom: 18%;
+  position: absolute;
+}
 
+.firstcategory {
+  margin: 10px;
+}
+.secondcategory {
+  margin: 10px;
+}
+.thirdcategory {
+  margin: 10px;
+}
 
+.pass_input {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #d3d2d2;
+  padding-left: 10px;
+}
+
+.submit > button {
+  padding: 8px 20px;
+  margin: 5px 30px;
+  border-radius: 35px;
+  border: 1px solid transparent;
+  background-color: #601e9e;
+  color: white;
+}
+
+.submit > button :hover {
+  background-color: #d41895;
+  cursor: pointer;
+}
+
+.pass-button {
+  padding: 2% 0;
+  border-radius: 30px;
+  background-color: #771a9c;
+  color: #fff;
+  margin: 12% 25%;
+  border: none;
+}
+.pass-button:hover {
+  background: #9d297e none repeat scroll 0 0;
+  border: 1px solid #9d297e;
+  color: #fcfcfc;
+}
