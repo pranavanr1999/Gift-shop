@@ -1385,3 +1385,13 @@ p.checkout-coupon input[type="submit"] {
   border: 1px solid #9d297e;
   color: #fcfcfc;
 }
+
+.addressgrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.multiple_address{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
