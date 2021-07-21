@@ -47,14 +47,13 @@ p {
 .grid{
 
   display: grid;
-  grid-template-columns: repeat(3 , 1fr)
+  grid-template-columns: repeat(4 , 1fr)
 
 }
 .row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .col-2 {
@@ -62,6 +61,34 @@ p {
   min-width: 300px;
   
 }
+
+.single_product{
+  max-width: 250px;
+  width: 50%;
+}
+
+.single_product img {
+  width: 80%;
+}
+
+.single_product p {
+  font-size: 14px;
+}
+
+.single_product:hover {
+  transform: translateY(-5px);
+}
+
+.ad-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.quotes{
+
+}
+
 .col-7 > img{
   width: 150%;
   max-width: 500px;
@@ -85,6 +112,14 @@ p {
 }
 
 .col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+  font-weight: bolder;
+  color: #030303;
+}
+
+.quotes h1 {
   font-size: 50px;
   line-height: 60px;
   margin: 25px 0;
