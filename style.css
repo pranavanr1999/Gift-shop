@@ -11,6 +11,8 @@ body {
   display: flex;
   align-items: center;
   padding: 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 /*nav maenu on the right as a unordered list*/
 nav {
@@ -41,11 +43,18 @@ p {
   padding-left: 25px;
   padding-right: 25px;
 }
+
+.grid{
+
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr)
+
+}
 .row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .col-2 {
@@ -81,6 +90,14 @@ p {
   margin: 25px 0;
   font-weight: bolder;
   color: #030303;
+}
+
+
+.product{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .btn {
@@ -1096,6 +1113,10 @@ p.checkout-coupon input[type="submit"] {
   visibility: hidden;
   transform-origin: 0 0 0;
   z-index: 5000;
+}
+.category{
+  width: 100%;
+  
 }
 .category ul li:hover .megamenu {
   opacity: 1;
